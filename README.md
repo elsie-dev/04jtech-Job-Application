@@ -49,6 +49,10 @@ Installing flask on the env,creating app.py files then running the file
 
 To make our webapp dynamic,l added routes to the app.py file indicating the python version,date and type of operating system used.
 
+## Using Ansible for running ngnix and loadbalancing
+
+*****
+
 **Points to note:**
 
 Ansible does indicate compatibility issues when using windows.[https://youtu.be/4sMFybv74Uo]()
