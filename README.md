@@ -54,17 +54,19 @@ Points to note:
 
 Ansible does indicate compatibility issues when using windows.[https://youtu.be/4sMFybv74Uo]()
 
-**Troubleshoot**
+**Troubleshoot** \
 Enable the Linux subsytem on the windows platfrom via either the powershell or settings tab.Commands used:
+
 ```
 Enable-WindowsOptionalFeature-Online -Featurename Microsoft-Windows-Subsystem-Linux 
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get install ansible
 ansible --version
 ```
-   Webservers and loadbalancers running Nginx
-   Helps in performance problem,this way we can add new servers (vm's) and increase the capacity of your platform. 
-   Distributing the load over multiple machines is referred to as "load balancing".
+
+Webservers and loadbalancers running Nginx
+Helps in performance problem,this way we can add new servers (vm's) and increase the capacity of your platform. 
+Distributing the load over multiple machines is referred to as "load balancing".
    
    
 
