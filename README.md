@@ -20,7 +20,8 @@ Requirements
 
 After everything is installed on the terminal,here are the commands to enable ubuntu/binoc64 run inside your vagant machine
 
-**Project steps**
+## **Project steps**
+
 Create a directory for the application
 ```
 mkdir appsample
@@ -48,11 +49,11 @@ Installing flask on the env,creating app.py files then running the file
 
 To make our webapp dynamic,l added routes to the app.py file indicating the python version,date and type of operating system used.
 
-Points to note:
+**Points to note:**
 
 Ansible does indicate compatibility issues when using windows.[https://youtu.be/4sMFybv74Uo]()
 
-**Troubleshoot** \
+## **Troubleshoot** \
 Enable the Linux subsytem on the windows platfrom via either the powershell or settings tab.Commands used:
 
 ```
@@ -66,7 +67,7 @@ Webservers and loadbalancers running Nginx
 Helps in performance problem,this way we can add new servers (vm's) and increase the capacity of your platform. 
 Distributing the load over multiple machines is referred to as "load balancing".
 
-Compromises:
+## **Compromises:**
 Virtual box with name loadbalancer already exists.
 removing load from the vagrant file then doing ```vagrant up``` solved the error.
    
