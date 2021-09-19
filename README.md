@@ -48,10 +48,6 @@ Installing flask on the env,creating app.py files then running the file
 
 To make our webapp dynamic,l added routes to the app.py file indicating the python version,date and type of operating system used.
 
-
-
-
-
 Points to note:
 
 Ansible does indicate compatibility issues when using windows.[https://youtu.be/4sMFybv74Uo]()
@@ -69,6 +65,10 @@ ansible --version
 Webservers and loadbalancers running Nginx
 Helps in performance problem,this way we can add new servers (vm's) and increase the capacity of your platform. 
 Distributing the load over multiple machines is referred to as "load balancing".
+
+Compromises:
+Virtual box with name loadbalancer already exists.
+removing load from the vagrant file then doing ```vagrant up``` solved the error.
    
    
 
