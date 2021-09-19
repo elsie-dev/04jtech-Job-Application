@@ -39,12 +39,14 @@ Vagrantfile should have this next line to enable provision later on ansible when
  ```
  ```Vagrant up```
  
-##Creating applications to Webserver
+## Creating applications to Webserver
 Installing flask on the env,creating app.py files then running the file 
 
 ```pip install flask``` \
 ```flask run```\
 ![CLI output](flaskoutput.png)
+
+To make our webapp dynamic,l added routes to the app.py file indicating the python version,date and type of operating system used.
 
 
 
